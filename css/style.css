@@ -1,0 +1,115 @@
+
+
+h2, h3, h4, h5 {
+    padding: 10px;
+    margin-left: 20px;
+
+}
+p {
+   padding: 10px;
+   margin-left: 20px;
+}
+
+img {
+    margin-left: 20px;
+    padding: 9px;
+}
+
+.containerBlock {
+    display: inline-block;
+}
+.left {
+    width: 40%;
+}
+.right {
+    width: 58%;
+    float: right;
+}
+.well {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.navbar-nav{
+    align-items: center;
+}
+.picure {
+    display: inline-block;
+    float: right;  
+}
+.aside {
+ display: inline-block;
+ float: right;
+}
+
+.jumbotron {
+    background-image: url(../images/Jumbotron2.png);
+    color: white;
+    background-size: 130%;
+}
+
+.jumbotron1 {
+    background-image: url(../images/phone2.jpg);
+    margin: auto;
+    width: auto;
+    background-size: 100%;
+background-position: center;
+background-image: cover;
+background-repeat: none;
+    padding: 10px;
+text-align: left;
+}
+
+body {
+ margin: auto;
+ padding: 20px; 
+}
+
+.mainBody {
+ margin: auto;
+ padding: 20px;
+ border: #555 2px;
+}
+
+#text {
+    color: black;  
+}
+
+.research {
+ margin: auto;
+ padding: 50px; 
+}
+
+.button {
+    color: black;
+}
+
+.cardText {
+    margin: auto;
+    padding: auto;
+    justify-content: center;
+}
+
+.row.content {
+    height: 1500px
+}
+    
+    .sidenav {
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    footer {
+      background-color: #555;
+      padding: 15px;
+    }
+    
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: auto;} 
+    }
+
